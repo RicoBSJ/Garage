@@ -1,14 +1,19 @@
 
 public enum TypeMoteur {
 	
-	String moteurDiesel = "DIESEL";
-	String moteurElectrique = "ELECTRIQUE";
-	String moteurEssence = "ESSENCE";
-	String moteurHybride = "HYBRIDE";
+	Diesel ("Moteur DIESEL"),
+	Electrique ("Moteur ELECTRIQUE"),
+	Essence ("Moteur ESSENCE"),
+	Hybride ("Moteur HYBRIDE");
 	
-	private TypeMoteur(String string, double d) {
-
-		// TODO Auto-generated constructor stub
-		return;
-	}
+	private String name = "";
+	
+	//Constructeur
+	TypeMoteur(String name){
+		this.name = name;
+	  }
+	   
+	public String toString(){
+		return name;
+	  }
 }
