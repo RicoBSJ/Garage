@@ -1,7 +1,7 @@
 
-public class MoteurDiesel extends MoteurEssence {
+public class MoteurDiesel extends Moteur {
 
-	public MoteurDiesel(String string, double d) {
+	protected MoteurDiesel(String string, double d) {
 		super(string, d);
 		// TODO Auto-generated constructor stub
 	}

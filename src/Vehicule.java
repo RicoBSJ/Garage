@@ -1,5 +1,10 @@
+import java.util.List;
 
-public class Vehicule {
+public class Vehicule implements Option {
+
+	double prix;
+	String nom;
+	List<option> options;
 
 	public void setMoteur(MoteurEssence moteurEssence) {
 		// TODO Auto-generated method stub

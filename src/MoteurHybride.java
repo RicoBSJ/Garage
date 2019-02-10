@@ -1,7 +1,7 @@
 
-public class MoteurHybride extends MoteurEssence {
+public class MoteurHybride extends Moteur {
 
-	public MoteurHybride(String string, double d) {
+	protected MoteurHybride(String string, double d) {
 		super(string, d);
 		// TODO Auto-generated constructor stub
 	}
