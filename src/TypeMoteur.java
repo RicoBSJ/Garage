@@ -11,7 +11,7 @@ public enum TypeMoteur {
 	}
 
 	public String toString() {
-		
+
 		return name;
 	}
 }

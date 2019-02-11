@@ -1,9 +1,8 @@
 
 public class MoteurHybride extends Moteur {
 
-	protected MoteurHybride(String string, double d) {
-		super(string, d);
+	protected MoteurHybride(String cyclindre, double prix) {
+		super(cyclindre, prix);
 		// TODO Auto-generated constructor stub
 	}
-
 }

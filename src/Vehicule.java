@@ -1,19 +1,33 @@
 import java.util.List;
 
-public class Vehicule implements Option {
+abstract class Vehicule implements Option {
 
 	double prix;
 	String nom;
-	List<option> options;
+	List<Option> options;
 
-	public void setMoteur(MoteurEssence moteurEssence) {
-		// TODO Auto-generated method stub
+	public String toString() {
+
+		return nom;
+	}
+
+	void addOption(Option opt) {
 
 	}
 
-	public void addOption(GPS gps) {
-		// TODO Auto-generated method stub
+	public Marque getMarque() {
 
+		return null;
+	}
+
+	List<Option> getOptions() {
+
+		return options;
+	}
+
+	public double getPrix() {
+
+		return prix;
 	}
 }
 

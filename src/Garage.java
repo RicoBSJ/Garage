@@ -1,8 +1,16 @@
+import java.util.List;
 
-public class Garage extends Vehicule {
-
-	public void addVoiture(Vehicule lag1) {
-		// TODO Auto-generated method stub
+public class Garage {
+	
+	List<Vehicule> voitures;
+	
+	public String toString(){
+		
+		return null;
+	  }
+	
+	public void add(Vehicule voit) {
+		
 		
 	}
 
